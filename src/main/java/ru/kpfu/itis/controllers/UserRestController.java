@@ -7,8 +7,10 @@ import org.springframework.web.bind.annotation.*;
 import ru.kpfu.itis.entities.User;
 import ru.kpfu.itis.repository.UserRepository;
 
+import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.SortedSet;
 
 /**
  * Created by Anatoly on 10.07.2017.
@@ -23,6 +25,21 @@ public class UserRestController {
     @RequestMapping(value = "/friends", method = RequestMethod.GET)
     public Set<User> getFriends(@RequestParam(value = "login") String login){
         return userRepository.findUserByLogin(login).getFriends();
+    }
+
+    @RequestMapping(value = "/getByID", method = RequestMethod.GET)
+    public User getById(@RequestParam(value = "login") String login){
+        return userRepository.findUserByLogin(login);
+    }
+
+    @RequestMapping(value = "/getByListID", method = RequestMethod.GET)
+    public Set<User> getByListId(@RequestParam(value = "login") String[] arr){
+        Set<User> userSet = new HashSet();
+
+        for (String id: arr) {
+            userSet.add(userRepository.findUserByLogin(id));
+        }
+        return userSet;
     }
 
     @RequestMapping(value = "/reg", method = RequestMethod.POST)
