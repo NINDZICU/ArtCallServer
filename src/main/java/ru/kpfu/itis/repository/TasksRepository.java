@@ -13,4 +13,5 @@ import java.util.Set;
 @Repository
 public interface TasksRepository extends JpaRepository<Tasks, Integer> {
     Set<Tasks> findTasksByAddress(String address);
+    Set<Tasks> findTasksByCity(String city);
 }

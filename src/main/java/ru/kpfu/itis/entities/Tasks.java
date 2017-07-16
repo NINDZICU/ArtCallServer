@@ -34,6 +34,9 @@ public class Tasks implements Serializable {
     @Column
     private String longitude;
 
+    @Column
+    private String city;
+
 
     @ManyToMany(mappedBy = "tasks")
     private Set<User> users;
@@ -49,7 +52,7 @@ public class Tasks implements Serializable {
 
     public Tasks(){}
 
-    public Tasks(String name, String description, String dateFinish, String difficulty, String address, String latitude, String longitude, User customer) {
+    public Tasks(String name, String description, String dateFinish, String difficulty, String address, String latitude, String longitude, User customer, String city) {
         this.name = name;
         this.description = description;
         this.dateFinish = dateFinish;
@@ -58,6 +61,7 @@ public class Tasks implements Serializable {
         this.latitude = latitude;
         this.longitude = longitude;
         this.customer = customer;
+        this.city = city;
     }
 
     public Integer getId() {
@@ -138,5 +142,13 @@ public class Tasks implements Serializable {
 
     public void setLongitude(String longitude) {
         this.longitude = longitude;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
     }
 }

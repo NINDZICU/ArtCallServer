@@ -35,7 +35,6 @@ public class UserRestController {
     @RequestMapping(value = "/getByListID", method = RequestMethod.GET)
     public Set<User> getByListId(@RequestParam(value = "login") String[] arr){
         Set<User> userSet = new HashSet();
-
         for (String id: arr) {
             userSet.add(userRepository.findUserByLogin(id));
         }
