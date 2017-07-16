@@ -14,6 +14,7 @@ import ru.kpfu.itis.repository.MyTasksRepository;
 import ru.kpfu.itis.repository.TasksRepository;
 import ru.kpfu.itis.repository.UserRepository;
 
+import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
@@ -44,20 +45,17 @@ public class RestController {
 
     @RequestMapping(value = "/getAll", method = RequestMethod.GET)
     public Set<Tasks> getAllTasks(@RequestParam(value = "city") String city) {
-        Set<Tasks> myTasks = this.tasksRepository.findTasksByAddress(city);
-        for(Tasks tasks:myTasks){
-            tasks.getCustomer().setMyTasks(null);
-        }
+        Set<Tasks> myTasks = this.tasksRepository.findTasksByCity(city);
         return myTasks;
-//        return new MyTasks("sadasd","kekek", "12.04.2017", "1", "Tolya" );
     }
 
     @RequestMapping(value = "/add", method = RequestMethod.POST)
     public Integer addTask(@RequestParam(value = "address") String address, @RequestParam(value = "login") String loginCustomer,
                            @RequestParam(value = "dateFinish") String dateFinish, @RequestParam(value = "name") String name,
-                           @RequestParam(value = "description") String description, @RequestParam(value = "difficulty") String difficulty) {
+                           @RequestParam(value = "description") String description, @RequestParam(value = "difficulty") String difficulty,
+                           @RequestParam(value = "city") String city) {
         tasksRepository.save(new Tasks(name, description, dateFinish, difficulty, address,
-                "0", "0", userRepository.findUserByLogin(loginCustomer)));
+                "0", "0", userRepository.findUserByLogin(loginCustomer), city));
         return 1; //TODO доделать 1 - успешно добавилось, 0 - не добавилось
 //        return new MyTasks("sadasd","kekek", "12.04.2017", "1", "Tolya" );
     }
