@@ -2,9 +2,7 @@ package ru.kpfu.itis.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.RequestMapping;
-
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import ru.kpfu.itis.entities.MyTasks;
@@ -14,8 +12,6 @@ import ru.kpfu.itis.repository.MyTasksRepository;
 import ru.kpfu.itis.repository.TasksRepository;
 import ru.kpfu.itis.repository.UserRepository;
 
-import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 
@@ -48,6 +44,23 @@ public class RestController {
     public Set<Tasks> getAllTasks(@RequestParam(value = "city") String city) {
         Set<Tasks> myTasks = this.tasksRepository.findTasksByCity(city);
         return myTasks;
+    }
+
+    //TODO сделать эту проверку на стороне клиента и сделать ссылку в myTasks на Tasks
+    @RequestMapping(value = "/getAllAndr", method = RequestMethod.GET)
+    public Set<Tasks> getAllTasksWithoutRepeat(@RequestParam(value = "city") String city, @RequestParam(value = "login") String login) {
+        Set<MyTasks> myTasks = this.userRepository.findUserByLogin(login).getMyTasks();
+        Set<Tasks> tasks = this.tasksRepository.findTasksByCity(city);
+        for (Tasks tasks1 : tasks) {
+            for (MyTasks myTasks1 : myTasks) {
+                if (tasks1.getCustomer().equals(myTasks1.getCustomer()) && tasks1.getDateFinish().equals(myTasks1.getDateFinish()) &&
+                        tasks1.getName().equals(myTasks1.getName())) {
+                    tasks.remove(tasks1);
+                }
+            }
+        }
+        ;
+        return tasks;
     }
 
     @RequestMapping(value = "/add", method = RequestMethod.POST)

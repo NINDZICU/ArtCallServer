@@ -3,14 +3,14 @@ package ru.kpfu.itis.controllers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.security.access.prepost.PreAuthorize;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import ru.kpfu.itis.entities.User;
 import ru.kpfu.itis.repository.UserRepository;
 
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
-import java.util.SortedSet;
 
 /**
  * Created by Anatoly on 10.07.2017.
@@ -44,7 +44,9 @@ public class UserRestController {
     @RequestMapping(value = "/reg", method = RequestMethod.POST)
     @PreAuthorize("isAnonymous()")
     public void addUser(@RequestParam(value="login") String login,@RequestParam(value="name") String name, @RequestParam(value="city") String city) {
-        userRepository.save(new User(login, name, city,1, 0));
+        if(userRepository.findUserByLogin(login)== null) {
+            userRepository.save(new User(login, name, city, 1, 0));
+        }
     }
 //    @RequestMapping(value = "/aut", method = RequestMethod.POST)
 //    @PreAuthorize("isAnonymous()")

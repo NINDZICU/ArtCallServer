@@ -1,68 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7538aba2-4c66-4eba-be3a-164dd138dd67" name="Default" comment="add User to Server db">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/5718313d-8309-4e54-904c-89172c1c05de.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/java/com/kpfu/itis/culturalchallenge/adapters/TasksRecyclerAdapter.java" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/java/com/kpfu/itis/culturalchallenge/adapters/TasksRecyclerAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/build.gradle" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../CulturalChallenge/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/layout/activity_splash.xml" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/layout/activity_splash.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/kpfu/itis/entities/MyTasks.class" afterPath="$PROJECT_DIR$/target/classes/ru/kpfu/itis/entities/MyTasks.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/build.gradle" afterPath="$PROJECT_DIR$/../CulturalChallenge/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/drawable/btn.xml" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/drawable/btn.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/.idea/gradle.xml" afterPath="$PROJECT_DIR$/../CulturalChallenge/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/layout/confirmation.xml" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/layout/confirmation.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/src/androidTest/java/com/kpfu/itis/culturalchallenge/ExampleInstrumentedTest.java" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/src/androidTest/java/com/kpfu/itis/culturalchallenge/ExampleInstrumentedTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/java/com/kpfu/itis/culturalchallenge/MainActivity.java" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/java/com/kpfu/itis/culturalchallenge/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/layout/tasks.xml" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/layout/tasks.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/gradlew.bat" afterPath="$PROJECT_DIR$/../CulturalChallenge/gradlew.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/.idea/misc.xml" afterPath="$PROJECT_DIR$/../CulturalChallenge/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/kpfu/itis/controllers/UserRestController.class" afterPath="$PROJECT_DIR$/target/classes/ru/kpfu/itis/controllers/UserRestController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/layout/challenge.xml" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/layout/challenge.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/drawable/edit_text_style.xml" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/drawable/edit_text_style.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/java/com/kpfu/itis/culturalchallenge/fragments/TaskDetailFragment.java" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/java/com/kpfu/itis/culturalchallenge/fragments/TaskDetailFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/RestController.java" afterPath="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/RestController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/layout/profile.xml" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/layout/profile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/layout/home.xml" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/layout/home.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/java/com/kpfu/itis/culturalchallenge/entities/Tasks.java" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/java/com/kpfu/itis/culturalchallenge/entities/Tasks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/layout/profile_item.xml" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/layout/profile_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/../CulturalChallenge/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/.gitignore" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/java/com/kpfu/itis/culturalchallenge/splash/SplashActivity.java" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/java/com/kpfu/itis/culturalchallenge/splash/SplashActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/gradlew" afterPath="$PROJECT_DIR$/../CulturalChallenge/gradlew" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/java/com/kpfu/itis/culturalchallenge/entities/User.java" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/java/com/kpfu/itis/culturalchallenge/entities/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CultureChallengerServer-1.0-SNAPSHOT/WEB-INF/classes/ru/kpfu/itis/controllers/RestController.class" afterPath="$PROJECT_DIR$/target/CultureChallengerServer-1.0-SNAPSHOT/WEB-INF/classes/ru/kpfu/itis/controllers/RestController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/.idea/runConfigurations.xml" afterPath="$PROJECT_DIR$/../CulturalChallenge/.idea/runConfigurations.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../CulturalChallenge/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/src/test/java/com/kpfu/itis/culturalchallenge/ExampleUnitTest.java" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/src/test/java/com/kpfu/itis/culturalchallenge/ExampleUnitTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/java/com/kpfu/itis/culturalchallenge/entities/MyTasks.java" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/java/com/kpfu/itis/culturalchallenge/entities/MyTasks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/repository/MyTasksRepository.java" afterPath="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/repository/MyTasksRepository.java" />
+    <list default="true" id="7538aba2-4c66-4eba-be3a-164dd138dd67" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/settings.gradle" afterPath="$PROJECT_DIR$/../CulturalChallenge/settings.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/layout/tasks_item.xml" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/layout/tasks_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/.gitignore" afterPath="$PROJECT_DIR$/../CulturalChallenge/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CultureChallengerServer-1.0-SNAPSHOT/WEB-INF/classes/ru/kpfu/itis/controllers/UserRestController.class" afterPath="$PROJECT_DIR$/target/CultureChallengerServer-1.0-SNAPSHOT/WEB-INF/classes/ru/kpfu/itis/controllers/UserRestController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/.idea/modules.xml" afterPath="$PROJECT_DIR$/../CulturalChallenge/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/gradle.properties" afterPath="$PROJECT_DIR$/../CulturalChallenge/gradle.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/kpfu/itis/controllers/RestController.class" afterPath="$PROJECT_DIR$/target/classes/ru/kpfu/itis/controllers/RestController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/layout/friends.xml" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/layout/friends.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/layout/friends_item.xml" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/layout/friends_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/layout/done.xml" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/layout/done.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/proguard-rules.pro" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/proguard-rules.pro" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/MyTasks.java" afterPath="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/MyTasks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/layout/login.xml" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/layout/login.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../CulturalChallenge/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/drawable/btn_profile.xml" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/drawable/btn_profile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CultureChallengerServer-1.0-SNAPSHOT/WEB-INF/classes/ru/kpfu/itis/entities/MyTasks.class" afterPath="$PROJECT_DIR$/target/CultureChallengerServer-1.0-SNAPSHOT/WEB-INF/classes/ru/kpfu/itis/entities/MyTasks.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/layout/registration.xml" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/layout/registration.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/values/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/layout/item_home.xml" afterPath="$PROJECT_DIR$/../CulturalChallenge/app/src/main/res/layout/item_home.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -135,26 +76,41 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RestController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/RestController.java">
+      <file leaf-file-name="UserRestController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/UserRestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="38" column="47" lean-forward="false" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+            <state relative-caret-position="408">
+              <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="culturechallenger.public.tasks" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/6e252b4/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.tasks">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="63" column="36" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </entry>
+      </file>
+      <file leaf-file-name="Authority.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/Authority.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/RestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4">
+              <caret line="49" column="69" lean-forward="true" selection-start-line="49" selection-start-column="69" selection-end-line="49" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -163,21 +119,11 @@
       <file leaf-file-name="TasksRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/repository/TasksRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="187">
               <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyTasks.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/MyTasks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -185,20 +131,54 @@
       <file leaf-file-name="Tasks.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/Tasks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
+            <state relative-caret-position="612">
               <caret line="40" column="4" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserRestController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/UserRestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="76" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#1550#1551#0" expanded="false" />
+                <element signature="e#1575#1576#0" expanded="false" />
+                <element signature="e#1612#1613#0" expanded="false" />
+                <element signature="e#1640#1641#0" expanded="false" />
+                <element signature="e#1671#1672#0" expanded="false" />
+                <element signature="e#1698#1699#0" expanded="false" />
+                <element signature="e#1738#1739#0" expanded="false" />
+                <element signature="e#1770#1771#0" expanded="false" />
+                <element signature="e#1808#1809#0" expanded="false" />
+                <element signature="e#1842#1843#0" expanded="false" />
+                <element signature="e#1896#1897#0" expanded="false" />
+                <element signature="e#1942#1943#0" expanded="false" />
+                <element signature="e#1979#1980#0" expanded="false" />
+                <element signature="e#2012#2013#0" expanded="false" />
+                <element signature="e#2064#2065#0" expanded="false" />
+                <element signature="e#2108#2109#0" expanded="false" />
+                <element signature="e#2145#2146#0" expanded="false" />
+                <element signature="e#2178#2179#0" expanded="false" />
+                <element signature="e#2230#2231#0" expanded="false" />
+                <element signature="e#2274#2275#0" expanded="false" />
+                <element signature="e#2307#2308#0" expanded="false" />
+                <element signature="e#2338#2339#0" expanded="false" />
+                <element signature="e#2384#2385#0" expanded="false" />
+                <element signature="e#2424#2425#0" expanded="false" />
+                <element signature="e#2459#2460#0" expanded="false" />
+                <element signature="e#2487#2488#0" expanded="false" />
+                <element signature="e#2532#2533#0" expanded="false" />
+                <element signature="e#2566#2567#0" expanded="false" />
+                <element signature="e#2600#2601#0" expanded="false" />
+                <element signature="e#2630#2631#0" expanded="false" />
+                <element signature="e#2676#2677#0" expanded="false" />
+                <element signature="e#2714#2715#0" expanded="false" />
+                <element signature="e#2749#2750#0" expanded="false" />
+                <element signature="e#2780#2781#0" expanded="false" />
+                <element signature="e#2828#2829#0" expanded="false" />
+                <element signature="e#2868#2869#0" expanded="false" />
+                <element signature="e#2904#2905#0" expanded="false" />
+                <element signature="e#2936#2937#0" expanded="false" />
+                <element signature="e#2986#2987#0" expanded="false" />
+                <element signature="e#3028#3029#0" expanded="false" />
+                <element signature="e#3059#3060#0" expanded="false" />
+                <element signature="e#3086#3087#0" expanded="false" />
+                <element signature="e#3126#3127#0" expanded="false" />
+                <element signature="e#3158#3159#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -231,7 +211,10 @@
       </list>
     </option>
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -268,8 +251,8 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/Authority.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/Tasks.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/MyTasks.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/RestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/MyTasks.java" />
       </list>
     </option>
   </component>
@@ -363,39 +346,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CultureChallengerServer" />
+              <option name="myItemId" value="ArtCallServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CultureChallengerServer" />
+              <option name="myItemId" value="ArtCallServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CultureChallengerServer" />
+              <option name="myItemId" value="ArtCallServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CultureChallengerServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CultureChallengerServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CultureChallengerServer" />
+              <option name="myItemId" value="ArtCallServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -406,48 +378,14 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CultureChallengerServer" />
+              <option name="myItemId" value="ArtCallServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CultureChallengerServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CultureChallengerServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CultureChallengerServer" />
+              <option name="myItemId" value="ArtCallServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -466,48 +404,14 @@
               <option name="myItemId" value="itis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CultureChallengerServer" />
+              <option name="myItemId" value="ArtCallServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CultureChallengerServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="itis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repository" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CultureChallengerServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CultureChallengerServer" />
+              <option name="myItemId" value="ArtCallServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -533,11 +437,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CultureChallengerServer" />
+              <option name="myItemId" value="ArtCallServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CultureChallengerServer" />
+              <option name="myItemId" value="ArtCallServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -561,66 +465,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CultureChallengerServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CultureChallengerServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="itis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.5752009" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Tolya\Univer\Прога 2курс\CultureChallengerServer\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.kpfu.itis.entities" />
+      <recent name="ru.kpfu.itis.service" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Tolya\Univer\AndroidLab2Course\ArtCallServer\ArtCallServer\src\main\java\ru\kpfu\itis\controllers" />
       <recent name="E:\Tolya\Univer\Прога 2курс\CultureChallengerServer\src\main\java\ru\kpfu\itis\config" />
       <recent name="E:\Tolya\Univer\Прога 2курс\CultureChallengerServer\src\main" />
       <recent name="E:\Tolya\Univer\Прога 2курс\CultureChallengerServer\src\main\java" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ru.kpfu.itis.service" />
-      <recent name="ru.kpfu.itis.entities" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Tolya\Univer\Прога 2курс\CultureChallengerServer\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1163,11 +1035,21 @@
       <workItem from="1499970422299" duration="5450000" />
       <workItem from="1499983361308" duration="1408000" />
       <workItem from="1500015723474" duration="21172000" />
+      <workItem from="1500367832164" duration="848000" />
+      <workItem from="1500368776267" duration="3561000" />
     </task>
+    <task id="LOCAL-00001" summary="add accept, fail and success tasks">
+      <created>1500368804492</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1500368804493</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79483000" />
+    <option name="totallyTimeSpent" value="83892000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1198,16 +1080,15 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4912" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6576" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29425114" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30332828" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1216,6 +1097,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1267,9 +1149,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
     <MESSAGE value="add download tasks from server" />
     <MESSAGE value="add User to Server db" />
-    <option name="LAST_COMMIT_MESSAGE" value="add User to Server db" />
+    <MESSAGE value="add accept, fail and success tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="add accept, fail and success tasks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1333,150 +1219,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/6e252b4/b54f9735-549f-4608-99fd-aedaf79240c3/culturechallenger.public.mytasks">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/6e252b4/b54f9735-549f-4608-99fd-aedaf79240c3/culturechallenger.public.mytasks">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/6e252b4/b54f9735-549f-4608-99fd-aedaf79240c3/culturechallenger.public.mytasks">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/6e252b4/b54f9735-549f-4608-99fd-aedaf79240c3/culturechallenger.public.mytasks">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/6e252b4/b54f9735-549f-4608-99fd-aedaf79240c3/culturechallenger.public.mytasks">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/6e252b4/b54f9735-549f-4608-99fd-aedaf79240c3/culturechallenger.public.mytasks">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/6e252b4/b54f9735-549f-4608-99fd-aedaf79240c3/culturechallenger.public.mytasks">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="dbDummy://dbtable:/6e252b4/b54f9735-549f-4608-99fd-aedaf79240c3/culturechallenger.public.mytasks" />
+    <entry file="dbDummy://dbtable:/6e252b4/b54f9735-549f-4608-99fd-aedaf79240c3/culturechallenger.public.mytasks" />
+    <entry file="dbDummy://dbtable:/6e252b4/b54f9735-549f-4608-99fd-aedaf79240c3/culturechallenger.public.mytasks" />
+    <entry file="dbDummy://dbtable:/6e252b4/b54f9735-549f-4608-99fd-aedaf79240c3/culturechallenger.public.mytasks" />
+    <entry file="dbDummy://dbtable:/6e252b4/b54f9735-549f-4608-99fd-aedaf79240c3/culturechallenger.public.mytasks" />
+    <entry file="dbDummy://dbtable:/6e252b4/b54f9735-549f-4608-99fd-aedaf79240c3/culturechallenger.public.mytasks" />
+    <entry file="dbDummy://dbtable:/6e252b4/b54f9735-549f-4608-99fd-aedaf79240c3/culturechallenger.public.mytasks" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/6e252b4/b54f9735-549f-4608-99fd-aedaf79240c3/culturechallenger.public.friends">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/6e252b4/b54f9735-549f-4608-99fd-aedaf79240c3/culturechallenger.public.users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/6e252b4/b54f9735-549f-4608-99fd-aedaf79240c3/culturechallenger.public.mytasks">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="dbDummy://dbtable:/6e252b4/b54f9735-549f-4608-99fd-aedaf79240c3/culturechallenger.public.friends" />
+    <entry file="dbDummy://dbtable:/6e252b4/b54f9735-549f-4608-99fd-aedaf79240c3/culturechallenger.public.users" />
+    <entry file="dbDummy://dbtable:/6e252b4/b54f9735-549f-4608-99fd-aedaf79240c3/culturechallenger.public.mytasks" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bc24de92-b76b-4afc-b1e0-54bd733008b5/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1484,7 +1247,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="60" lean-forward="false" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1492,7 +1254,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="163" column="0" lean-forward="false" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1500,7 +1261,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1508,9 +1268,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="41" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#1602#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1518,7 +1275,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="47" column="19" lean-forward="false" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1526,9 +1282,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#2363#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1542,226 +1295,123 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/repository/TasksRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="187">
           <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/6e252b4/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.mytasks">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="dbDummy://dbtable:/6e252b4/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.mytasks" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/config/SecurityWebApplicationInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/6e252b4/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.all_tasks" />
+    <entry file="dbDummy://dbtable:/6e252b4/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.mytasks" />
+    <entry file="dbDummy://dbtable:/6e252b4/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.mytasks" />
+    <entry file="dbDummy://dbtable:/6e252b4/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.mytasks" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/Tasks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="40" column="4" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
           <folding>
-            <element signature="e#0#246#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1550#1551#0" expanded="false" />
+            <element signature="e#1575#1576#0" expanded="false" />
+            <element signature="e#1612#1613#0" expanded="false" />
+            <element signature="e#1640#1641#0" expanded="false" />
+            <element signature="e#1671#1672#0" expanded="false" />
+            <element signature="e#1698#1699#0" expanded="false" />
+            <element signature="e#1738#1739#0" expanded="false" />
+            <element signature="e#1770#1771#0" expanded="false" />
+            <element signature="e#1808#1809#0" expanded="false" />
+            <element signature="e#1842#1843#0" expanded="false" />
+            <element signature="e#1896#1897#0" expanded="false" />
+            <element signature="e#1942#1943#0" expanded="false" />
+            <element signature="e#1979#1980#0" expanded="false" />
+            <element signature="e#2012#2013#0" expanded="false" />
+            <element signature="e#2064#2065#0" expanded="false" />
+            <element signature="e#2108#2109#0" expanded="false" />
+            <element signature="e#2145#2146#0" expanded="false" />
+            <element signature="e#2178#2179#0" expanded="false" />
+            <element signature="e#2230#2231#0" expanded="false" />
+            <element signature="e#2274#2275#0" expanded="false" />
+            <element signature="e#2307#2308#0" expanded="false" />
+            <element signature="e#2338#2339#0" expanded="false" />
+            <element signature="e#2384#2385#0" expanded="false" />
+            <element signature="e#2424#2425#0" expanded="false" />
+            <element signature="e#2459#2460#0" expanded="false" />
+            <element signature="e#2487#2488#0" expanded="false" />
+            <element signature="e#2532#2533#0" expanded="false" />
+            <element signature="e#2566#2567#0" expanded="false" />
+            <element signature="e#2600#2601#0" expanded="false" />
+            <element signature="e#2630#2631#0" expanded="false" />
+            <element signature="e#2676#2677#0" expanded="false" />
+            <element signature="e#2714#2715#0" expanded="false" />
+            <element signature="e#2749#2750#0" expanded="false" />
+            <element signature="e#2780#2781#0" expanded="false" />
+            <element signature="e#2828#2829#0" expanded="false" />
+            <element signature="e#2868#2869#0" expanded="false" />
+            <element signature="e#2904#2905#0" expanded="false" />
+            <element signature="e#2936#2937#0" expanded="false" />
+            <element signature="e#2986#2987#0" expanded="false" />
+            <element signature="e#3028#3029#0" expanded="false" />
+            <element signature="e#3059#3060#0" expanded="false" />
+            <element signature="e#3086#3087#0" expanded="false" />
+            <element signature="e#3126#3127#0" expanded="false" />
+            <element signature="e#3158#3159#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/6e252b4/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.all_tasks">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/Authority.java">
+    <entry file="dbDummy://dbtable:/6e252b4/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.mytasks" />
+    <entry file="dbDummy://dbtable:/6e252b4/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.mytasks" />
+    <entry file="dbDummy://dbtable:/6e252b4/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.mytasks" />
+    <entry file="dbDummy://dbtable:/6e252b4/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.users" />
+    <entry file="dbDummy://dbtable:/6e252b4/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.mytasks" />
+    <entry file="dbDummy://dbtable:/6e252b4/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.mytasks" />
+    <entry file="dbDummy://dbtable:/6e252b4/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.tasks" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/MyTasks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="41" column="4" lean-forward="false" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="184" column="4" lean-forward="false" selection-start-line="184" selection-start-column="4" selection-end-line="184" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/6e252b4/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.mytasks">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/6e252b4/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.mytasks">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/6e252b4/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.mytasks">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="115">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/UserRestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="408">
+          <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/Tasks.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="40" column="4" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+        <state relative-caret-position="237">
+          <caret line="63" column="36" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/6e252b4/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.mytasks">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/6e252b4/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.mytasks">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/6e252b4/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.mytasks">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/6e252b4/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/MyTasks.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/Authority.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/6e252b4/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.mytasks">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/6e252b4/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.mytasks">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/6e252b4/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.tasks">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="544">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/RestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="38" column="47" lean-forward="false" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+        <state relative-caret-position="-4">
+          <caret line="49" column="69" lean-forward="true" selection-start-line="49" selection-start-column="69" selection-end-line="49" selection-end-column="69" />
           <folding />
         </state>
       </provider>
@@ -1776,7 +1426,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.5752009" />
                 <option value="0.5" />
               </list>
             </option>
@@ -1785,11 +1435,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.5752009" />
               </list>
             </option>
           </splitter-proportions>
@@ -1800,7 +1450,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.5752009" />
               </list>
             </option>
           </splitter-proportions>
@@ -1812,7 +1462,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.5752009" />
               </list>
             </option>
           </splitter-proportions>
@@ -1820,7 +1470,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|CultureChallengerServer</last-edited>
+          <last-edited>CultureChallengerServer</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1848,7 +1498,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.5752009" />
               </list>
             </option>
           </splitter-proportions>

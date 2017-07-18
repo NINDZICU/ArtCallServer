@@ -43,8 +43,11 @@ public class MyTasks implements Serializable{
     @JoinColumn(
             name = "login"
     )
+    private User user;
 
     public MyTasks(){}
+
+
 
     public MyTasks(String name, String description, String dateFinish, String difficulty, User customer, String state, User user) {
         this.name = name;
@@ -55,8 +58,6 @@ public class MyTasks implements Serializable{
         this.state = state;
         this.user = user;
     }
-
-   private User user;
 
     public Integer getId() {
         return id;
