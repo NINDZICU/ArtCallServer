@@ -60,5 +60,30 @@ public class RestController {
 //        return new MyTasks("sadasd","kekek", "12.04.2017", "1", "Tolya" );
     }
 
+    @RequestMapping(value = "/acceptTask", method = RequestMethod.POST)
+    public Integer acceptTask(@RequestParam(value = "login") String login, @RequestParam(value = "idTask") Integer id) {
+        Tasks task = tasksRepository.findOne(id);
+        User user = userRepository.findUserByLogin(login);
+        User customer = task.getCustomer();
+        myTasksRepository.save(new MyTasks(task.getName(), task.getDescription(), task.getDateFinish(), task.getDifficulty(),
+                customer, "0", user));
+        return 1;
+    }
+
+    @RequestMapping(value = "/successTask", method = RequestMethod.GET)
+    public Integer successTask(@RequestParam(value = "login") String login, @RequestParam(value = "idTask") Integer id) {
+        MyTasks myTasks = myTasksRepository.findOne(id);
+        myTasks.setState("2");
+        myTasksRepository.save(myTasks);
+        return 1;
+    }
+
+    @RequestMapping(value = "/failTask", method = RequestMethod.GET)
+    public Integer failTask(@RequestParam(value = "login") String login, @RequestParam(value = "idTask") Integer id) {
+        MyTasks myTasks = myTasksRepository.findOne(id);
+        myTasks.setState("1");
+        myTasksRepository.save(myTasks);
+        return 1;
+    }
 
 }
