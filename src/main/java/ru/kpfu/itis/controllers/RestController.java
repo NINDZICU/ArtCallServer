@@ -5,6 +5,7 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import ru.kpfu.itis.entities.Authority;
 import ru.kpfu.itis.entities.MyTasks;
 import ru.kpfu.itis.entities.Tasks;
 import ru.kpfu.itis.entities.User;
@@ -34,6 +35,9 @@ public class RestController {
         for (MyTasks tasks : myTasks) {
             tasks.setUser(null);
             tasks.getCustomer().setMyTasks(null);
+            for(Authority authority: tasks.getCustomer().getAuthorities()){
+                authority.setUsers(null);
+            }
         }
         return myTasks;
 //        return new MyTasks("sadasd","kekek", "12.04.2017", "1", "Tolya" );
@@ -42,6 +46,13 @@ public class RestController {
     @RequestMapping(value = "/getAll", method = RequestMethod.GET)
     public Set<Tasks> getAllTasks(@RequestParam(value = "city") String city) {
         Set<Tasks> myTasks = this.tasksRepository.findTasksByCity(city);
+        for(Tasks tasks :myTasks){
+            tasks.getCustomer().setMyTasks(null);
+            for(Authority authority: tasks.getCustomer().getAuthorities()){
+                authority.setUsers(null);
+            }
+
+        };
         return myTasks;
     }
 

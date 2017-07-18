@@ -27,7 +27,6 @@ public class Authority implements GrantedAuthority {
     @Column(unique = true)
     private String authority;
     @ManyToMany(
-            fetch = FetchType.LAZY,
             mappedBy = "authorities"
     )
     private Set<User> users;
