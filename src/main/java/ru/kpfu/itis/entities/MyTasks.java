@@ -43,7 +43,20 @@ public class MyTasks implements Serializable{
     @JoinColumn(
             name = "login"
     )
-    private User user;
+
+    public MyTasks(){}
+
+    public MyTasks(String name, String description, String dateFinish, String difficulty, User customer, String state, User user) {
+        this.name = name;
+        this.description = description;
+        this.dateFinish = dateFinish;
+        this.difficulty = difficulty;
+        this.customer = customer;
+        this.state = state;
+        this.user = user;
+    }
+
+   private User user;
 
     public MyTasks(String name, String description, String dateFinish, String difficulty, User customer, String state, User user) {
         this.name = name;
