@@ -6,6 +6,8 @@ import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import ru.kpfu.itis.entities.Authority;
+import ru.kpfu.itis.entities.MyTasks;
 import ru.kpfu.itis.entities.User;
 import ru.kpfu.itis.repository.UserRepository;
 
@@ -29,7 +31,15 @@ public class UserRestController {
 
     @RequestMapping(value = "/getByID", method = RequestMethod.GET)
     public User getById(@RequestParam(value = "login") String login){
-        return userRepository.findUserByLogin(login);
+        User user = userRepository.findUserByLogin(login);
+        for(MyTasks myTasks: user.getMyTasks()){
+            myTasks.setCustomer(null);
+            myTasks.setUser(null);
+        }
+        for(Authority authority: user.getAuthorities()){
+            authority.setUsers(null);
+        }
+        return user;
     }
 
     @RequestMapping(value = "/getByListID", method = RequestMethod.GET)
