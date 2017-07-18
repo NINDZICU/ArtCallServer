@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7538aba2-4c66-4eba-be3a-164dd138dd67" name="Default" comment="fix bugs">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CultureChallengerServer-1.0-SNAPSHOT/WEB-INF/classes/ru/kpfu/itis/entities/Authority.class" afterPath="$PROJECT_DIR$/target/CultureChallengerServer-1.0-SNAPSHOT/WEB-INF/classes/ru/kpfu/itis/entities/Authority.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/kpfu/itis/entities/Authority.class" afterPath="$PROJECT_DIR$/target/classes/ru/kpfu/itis/entities/Authority.class" />
+    <list default="true" id="7538aba2-4c66-4eba-be3a-164dd138dd67" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CultureChallengerServer-1.0-SNAPSHOT/WEB-INF/classes/ru/kpfu/itis/controllers/RestController.class" afterPath="$PROJECT_DIR$/target/CultureChallengerServer-1.0-SNAPSHOT/WEB-INF/classes/ru/kpfu/itis/controllers/RestController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/kpfu/itis/controllers/RestController.class" afterPath="$PROJECT_DIR$/target/classes/ru/kpfu/itis/controllers/RestController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/RestController.java" afterPath="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/RestController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1149,7 +1148,7 @@
       <workItem from="1499983361308" duration="1408000" />
       <workItem from="1500015723474" duration="21172000" />
       <workItem from="1500367832164" duration="848000" />
-      <workItem from="1500368776267" duration="15728000" />
+      <workItem from="1500368776267" duration="15778000" />
     </task>
     <task id="LOCAL-00001" summary="add accept, fail and success tasks">
       <created>1500368804492</created>
@@ -1172,11 +1171,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500377845422</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix bugs">
+      <created>1500390367935</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1500390367935</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96059000" />
+    <option name="totallyTimeSpent" value="96109000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
