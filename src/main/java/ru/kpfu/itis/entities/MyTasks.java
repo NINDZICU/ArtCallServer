@@ -26,6 +26,14 @@ public class MyTasks implements Serializable{
     private String dateFinish;
     @Column
     private String difficulty;
+    @Column
+    private String latitude;
+    @Column
+    private String longitude;
+    @Column
+    private Integer taskId;
+
+
     @ManyToOne(
 
             cascade = {CascadeType.MERGE, CascadeType.DETACH, CascadeType.REFRESH}
@@ -49,7 +57,7 @@ public class MyTasks implements Serializable{
 
 
 
-    public MyTasks(String name, String description, String dateFinish, String difficulty, User customer, String state, User user) {
+    public MyTasks(String name, String description, String dateFinish, String difficulty, User customer, String state, User user, String latitude, String longitude, Integer taskId) {
         this.name = name;
         this.description = description;
         this.dateFinish = dateFinish;
@@ -57,6 +65,9 @@ public class MyTasks implements Serializable{
         this.customer = customer;
         this.state = state;
         this.user = user;
+        this.latitude = latitude;
+        this.longitude = longitude;
+        this.taskId = taskId;
     }
 
     public Integer getId() {
@@ -123,4 +134,27 @@ public class MyTasks implements Serializable{
         this.user = user;
     }
 
+    public String getLongitude() {
+        return longitude;
+    }
+
+    public void setLongitude(String longitude) {
+        this.longitude = longitude;
+    }
+
+    public String getLatitude() {
+        return latitude;
+    }
+
+    public void setLatitude(String latitude) {
+        this.latitude = latitude;
+    }
+
+    public Integer getTaskId() {
+        return taskId;
+    }
+
+    public void setTaskId(Integer taskId) {
+        this.taskId = taskId;
+    }
 }
