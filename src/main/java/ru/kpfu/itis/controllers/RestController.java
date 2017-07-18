@@ -29,14 +29,14 @@ public class RestController {
     @Autowired
     UserRepository userRepository;
 
-    
+
     @RequestMapping(value = "/getMy", method = RequestMethod.GET)
     public Set<MyTasks> getMyTasks(@RequestParam(value = "login") String login) {
         Set<MyTasks> myTasks = this.userRepository.findUserByLogin(login).getMyTasks();
         for (MyTasks tasks : myTasks) {
             tasks.setUser(null);
             tasks.getCustomer().setMyTasks(null);
-            for(Authority authority: tasks.getCustomer().getAuthorities()){
+            for (Authority authority : tasks.getCustomer().getAuthorities()) {
                 authority.setUsers(null);
             }
         }
@@ -47,13 +47,14 @@ public class RestController {
     @RequestMapping(value = "/getAll", method = RequestMethod.GET)
     public Set<Tasks> getAllTasks(@RequestParam(value = "city") String city) {
         Set<Tasks> myTasks = this.tasksRepository.findTasksByCity(city);
-        for(Tasks tasks :myTasks){
+        for (Tasks tasks : myTasks) {
             tasks.getCustomer().setMyTasks(null);
-            for(Authority authority: tasks.getCustomer().getAuthorities()){
+            for (Authority authority : tasks.getCustomer().getAuthorities()) {
                 authority.setUsers(null);
             }
 
-        };
+        }
+        ;
         return myTasks;
     }
 
@@ -69,8 +70,14 @@ public class RestController {
                     tasks.remove(tasks1);
                 }
             }
+            for (Tasks task : tasks) {
+                task.getCustomer().setMyTasks(null);
+                task.setUsers(null);
+                for (Authority authority : task.getCustomer().getAuthorities()) {
+                    authority.setUsers(null);
+                }
+            }
         }
-        ;
         return tasks;
     }
 

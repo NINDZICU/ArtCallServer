@@ -1,22 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7538aba2-4c66-4eba-be3a-164dd138dd67" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CultureChallengerServer-1.0-SNAPSHOT/WEB-INF/classes/ru/kpfu/itis/controllers/RestController.class" afterPath="$PROJECT_DIR$/target/CultureChallengerServer-1.0-SNAPSHOT/WEB-INF/classes/ru/kpfu/itis/controllers/RestController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CultureChallengerServer-1.0-SNAPSHOT/WEB-INF/classes/ru/kpfu/itis/controllers/UserRestController.class" afterPath="$PROJECT_DIR$/target/CultureChallengerServer-1.0-SNAPSHOT/WEB-INF/classes/ru/kpfu/itis/controllers/UserRestController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CultureChallengerServer-1.0-SNAPSHOT/WEB-INF/classes/ru/kpfu/itis/entities/MyTasks.class" afterPath="$PROJECT_DIR$/target/CultureChallengerServer-1.0-SNAPSHOT/WEB-INF/classes/ru/kpfu/itis/entities/MyTasks.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/kpfu/itis/controllers/RestController.class" afterPath="$PROJECT_DIR$/target/classes/ru/kpfu/itis/controllers/RestController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/kpfu/itis/controllers/UserRestController.class" afterPath="$PROJECT_DIR$/target/classes/ru/kpfu/itis/controllers/UserRestController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/kpfu/itis/entities/MyTasks.class" afterPath="$PROJECT_DIR$/target/classes/ru/kpfu/itis/entities/MyTasks.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/bc24de92-b76b-4afc-b1e0-54bd733008b5.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/bc24de92-b76b-4afc-b1e0-54bd733008b5.xml" />
+    <list default="true" id="7538aba2-4c66-4eba-be3a-164dd138dd67" name="Default" comment="fix bugs">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CultureChallengerServer-1.0-SNAPSHOT/WEB-INF/classes/ru/kpfu/itis/entities/Authority.class" afterPath="$PROJECT_DIR$/target/CultureChallengerServer-1.0-SNAPSHOT/WEB-INF/classes/ru/kpfu/itis/entities/Authority.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/kpfu/itis/entities/Authority.class" afterPath="$PROJECT_DIR$/target/classes/ru/kpfu/itis/entities/Authority.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/RestController.java" afterPath="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/RestController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/UserRestController.java" afterPath="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/UserRestController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/Authority.java" afterPath="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/Authority.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/app.properties" afterPath="$PROJECT_DIR$/src/main/resources/app.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CultureChallengerServer-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/CultureChallengerServer-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CultureChallengerServer-1.0-SNAPSHOT/WEB-INF/classes/app.properties" afterPath="$PROJECT_DIR$/target/CultureChallengerServer-1.0-SNAPSHOT/WEB-INF/classes/app.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/app.properties" afterPath="$PROJECT_DIR$/target/classes/app.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -89,10 +78,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserRestController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserRestController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/UserRestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="238">
               <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
               <folding />
             </state>
@@ -109,11 +98,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RestController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RestController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/RestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="39" selection-end-column="13" />
+            <state relative-caret-position="523">
+              <caret line="78" column="13" lean-forward="false" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="culturechallenger.public.tasks" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/dfbb1860/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.tasks">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="culturechallenger.public.mytasks" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/dfbb1860/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.mytasks">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -124,16 +143,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/app.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="3" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -180,6 +189,7 @@
         <option value="NINDZICU &lt;hlopunov598@gmail.com&gt;" />
       </list>
     </option>
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
@@ -222,8 +232,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/app.properties" />
         <option value="dbtable:/dfbb1860/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.user_role" />
         <option value="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/Authority.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/RestController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/UserRestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/RestController.java" />
       </list>
     </option>
   </component>
@@ -487,6 +497,116 @@
       <recent name="E:\Tolya\Univer\Прога 2курс\CultureChallengerServer\src\main" />
       <recent name="E:\Tolya\Univer\Прога 2курс\CultureChallengerServer\src\main\java" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/RestController.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1029,7 +1149,7 @@
       <workItem from="1499983361308" duration="1408000" />
       <workItem from="1500015723474" duration="21172000" />
       <workItem from="1500367832164" duration="848000" />
-      <workItem from="1500368776267" duration="7567000" />
+      <workItem from="1500368776267" duration="15728000" />
     </task>
     <task id="LOCAL-00001" summary="add accept, fail and success tasks">
       <created>1500368804492</created>
@@ -1045,11 +1165,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500373499248</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix bugs">
+      <created>1500377845422</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1500377845422</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87898000" />
+    <option name="totallyTimeSpent" value="96059000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1345,32 +1472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/dfbb1860/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.all_tasks">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/dfbb1860/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.mytasks">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/dfbb1860/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.user_authorities">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1397,35 +1498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/dfbb1860/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.tasks">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/app.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="3" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/RestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="39" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.1.RELEASE/spring-web-4.3.1.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -1438,14 +1510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/Authority.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1463,10 +1527,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/app.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/Authority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/dfbb1860/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.all_tasks">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/dfbb1860/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.tasks">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/dfbb1860/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.mytasks">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/UserRestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="238">
           <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/RestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="78" column="13" lean-forward="false" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
           <folding />
         </state>
       </provider>
