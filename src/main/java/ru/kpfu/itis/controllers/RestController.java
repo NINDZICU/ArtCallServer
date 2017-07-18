@@ -90,9 +90,17 @@ public class RestController {
         Tasks task = tasksRepository.findOne(id);
         User user = userRepository.findUserByLogin(login);
         User customer = task.getCustomer();
-        myTasksRepository.save(new MyTasks(task.getName(), task.getDescription(), task.getDateFinish(), task.getDifficulty(),
-                customer, "0", user));
-        return 1;
+
+        if(myTasksRepository.findOneByTaskId(id)== null) {
+            myTasksRepository.save(new MyTasks(task.getName(), task.getDescription(), task.getDateFinish(), task.getDifficulty(),
+                    customer, "0", user, task.getLatitude(), task.getLongitude(), task.getId()));
+            return 1;
+        } else {
+            return  0;
+        }
+
+
+
     }
 
     @RequestMapping(value = "/successTask", method = RequestMethod.GET)
