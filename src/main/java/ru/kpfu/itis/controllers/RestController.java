@@ -2,9 +2,7 @@ package ru.kpfu.itis.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.RequestMapping;
-
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import ru.kpfu.itis.entities.MyTasks;
@@ -14,8 +12,6 @@ import ru.kpfu.itis.repository.MyTasksRepository;
 import ru.kpfu.itis.repository.TasksRepository;
 import ru.kpfu.itis.repository.UserRepository;
 
-import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 
@@ -49,6 +45,23 @@ public class RestController {
         return myTasks;
     }
 
+    //TODO сделать эту проверку на стороне клиента и сделать ссылку в myTasks на Tasks
+    @RequestMapping(value = "/getAllAndr", method = RequestMethod.GET)
+    public Set<Tasks> getAllTasksWithoutRepeat(@RequestParam(value = "city") String city, @RequestParam(value = "login") String login) {
+        Set<MyTasks> myTasks = this.userRepository.findUserByLogin(login).getMyTasks();
+        Set<Tasks> tasks = this.tasksRepository.findTasksByCity(city);
+        for (Tasks tasks1 : tasks) {
+            for (MyTasks myTasks1 : myTasks) {
+                if (tasks1.getCustomer().equals(myTasks1.getCustomer()) && tasks1.getDateFinish().equals(myTasks1.getDateFinish()) &&
+                        tasks1.getName().equals(myTasks1.getName())) {
+                    tasks.remove(tasks1);
+                }
+            }
+        }
+        ;
+        return tasks;
+    }
+
     @RequestMapping(value = "/add", method = RequestMethod.POST)
     public Integer addTask(@RequestParam(value = "address") String address, @RequestParam(value = "login") String loginCustomer,
                            @RequestParam(value = "dateFinish") String dateFinish, @RequestParam(value = "name") String name,
@@ -60,5 +73,30 @@ public class RestController {
 //        return new MyTasks("sadasd","kekek", "12.04.2017", "1", "Tolya" );
     }
 
+    @RequestMapping(value = "/acceptTask", method = RequestMethod.POST)
+    public Integer acceptTask(@RequestParam(value = "login") String login, @RequestParam(value = "idTask") Integer id) {
+        Tasks task = tasksRepository.findOne(id);
+        User user = userRepository.findUserByLogin(login);
+        User customer = task.getCustomer();
+        myTasksRepository.save(new MyTasks(task.getName(), task.getDescription(), task.getDateFinish(), task.getDifficulty(),
+                customer, "0", user));
+        return 1;
+    }
+
+    @RequestMapping(value = "/successTask", method = RequestMethod.GET)
+    public Integer successTask(@RequestParam(value = "login") String login, @RequestParam(value = "idTask") Integer id) {
+        MyTasks myTasks = myTasksRepository.findOne(id);
+        myTasks.setState("2");
+        myTasksRepository.save(myTasks);
+        return 1;
+    }
+
+    @RequestMapping(value = "/failTask", method = RequestMethod.GET)
+    public Integer failTask(@RequestParam(value = "login") String login, @RequestParam(value = "idTask") Integer id) {
+        MyTasks myTasks = myTasksRepository.findOne(id);
+        myTasks.setState("1");
+        myTasksRepository.save(myTasks);
+        return 1;
+    }
 
 }
