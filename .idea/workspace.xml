@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7538aba2-4c66-4eba-be3a-164dd138dd67" name="Default" comment="add accept, fail and success tasks">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/b54f9735-549f-4608-99fd-aedaf79240c3.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="7538aba2-4c66-4eba-be3a-164dd138dd67" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/RestController.java" afterPath="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/RestController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/UserRestController.java" afterPath="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/UserRestController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/MyTasks.java" afterPath="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/MyTasks.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -83,13 +79,29 @@
       <file leaf-file-name="UserRestController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/UserRestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1145#1146#0" expanded="false" />
-                <element signature="e#1205#1206#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="408">
+              <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="63" column="36" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Authority.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/Authority.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,8 +109,8 @@
       <file leaf-file-name="RestController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/RestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="83" column="5" lean-forward="false" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+            <state relative-caret-position="-4">
+              <caret line="49" column="69" lean-forward="true" selection-start-line="49" selection-start-column="69" selection-end-line="49" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -239,8 +251,8 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/Authority.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/Tasks.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/MyTasks.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/RestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/MyTasks.java" />
       </list>
     </option>
   </component>
@@ -1024,12 +1036,20 @@
       <workItem from="1499983361308" duration="1408000" />
       <workItem from="1500015723474" duration="21172000" />
       <workItem from="1500367832164" duration="848000" />
-      <workItem from="1500368776267" duration="7000" />
+      <workItem from="1500368776267" duration="3561000" />
     </task>
+    <task id="LOCAL-00001" summary="add accept, fail and success tasks">
+      <created>1500368804492</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1500368804493</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80338000" />
+    <option name="totallyTimeSpent" value="83892000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1065,7 +1085,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6576" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30332828" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1134,7 +1154,8 @@
     </ignored-roots>
     <MESSAGE value="add download tasks from server" />
     <MESSAGE value="add User to Server db" />
-    <option name="LAST_COMMIT_MESSAGE" value="add User to Server db" />
+    <MESSAGE value="add accept, fail and success tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="add accept, fail and success tasks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1268,6 +1289,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1290,21 +1312,6 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/6e252b4/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.all_tasks" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/Authority.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="41" column="4" lean-forward="false" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="184" column="4" lean-forward="false" selection-start-line="184" selection-start-column="4" selection-end-line="184" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/6e252b4/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.mytasks" />
     <entry file="dbDummy://dbtable:/6e252b4/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.mytasks" />
     <entry file="dbDummy://dbtable:/6e252b4/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.mytasks" />
@@ -1371,28 +1378,40 @@
     <entry file="dbDummy://dbtable:/6e252b4/bc24de92-b76b-4afc-b1e0-54bd733008b5/culturechallenger.public.tasks" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/MyTasks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        <state relative-caret-position="115">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/UserRestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1145#1146#0" expanded="false" />
-            <element signature="e#1205#1206#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="408">
+          <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="63" column="36" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/entities/Authority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/kpfu/itis/controllers/RestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="83" column="5" lean-forward="false" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+        <state relative-caret-position="-4">
+          <caret line="49" column="69" lean-forward="true" selection-start-line="49" selection-start-column="69" selection-end-line="49" selection-end-column="69" />
           <folding />
         </state>
       </provider>
