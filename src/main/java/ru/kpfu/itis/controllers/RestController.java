@@ -28,6 +28,7 @@ public class RestController {
     @Autowired
     UserRepository userRepository;
 
+    
     @RequestMapping(value = "/getMy", method = RequestMethod.GET)
     public Set<MyTasks> getMyTasks(@RequestParam(value = "login") String login) {
         Set<MyTasks> myTasks = this.userRepository.findUserByLogin(login).getMyTasks();
