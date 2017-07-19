@@ -55,7 +55,7 @@ public class UserRestController {
     @PreAuthorize("isAnonymous()")
     public void addUser(@RequestParam(value="login") String login,@RequestParam(value="name") String name, @RequestParam(value="city") String city) {
         if(userRepository.findUserByLogin(login)== null) {
-            userRepository.save(new User(login, name, city, 1, 0));
+            userRepository.save(new User(login, name, city, 1, 50));
         }
     }
 //    @RequestMapping(value = "/aut", method = RequestMethod.POST)

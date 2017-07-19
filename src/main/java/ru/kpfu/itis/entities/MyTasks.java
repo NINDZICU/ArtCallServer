@@ -32,6 +32,8 @@ public class MyTasks implements Serializable{
     private String longitude;
     @Column
     private Integer taskId;
+    @Column
+    private String address;
 
 
     @ManyToOne(
@@ -57,7 +59,7 @@ public class MyTasks implements Serializable{
 
 
 
-    public MyTasks(String name, String description, String dateFinish, String difficulty, User customer, String state, User user, String latitude, String longitude, Integer taskId) {
+    public MyTasks(String name, String description, String dateFinish, String difficulty, User customer, String state, User user, String latitude, String longitude, Integer taskId, String address) {
         this.name = name;
         this.description = description;
         this.dateFinish = dateFinish;
@@ -68,6 +70,7 @@ public class MyTasks implements Serializable{
         this.latitude = latitude;
         this.longitude = longitude;
         this.taskId = taskId;
+        this.address = address;
     }
 
     public Integer getId() {
@@ -156,5 +159,13 @@ public class MyTasks implements Serializable{
 
     public void setTaskId(Integer taskId) {
         this.taskId = taskId;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 }

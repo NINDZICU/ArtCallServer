@@ -13,6 +13,7 @@ import ru.kpfu.itis.repository.MyTasksRepository;
 import ru.kpfu.itis.repository.TasksRepository;
 import ru.kpfu.itis.repository.UserRepository;
 
+import java.util.Iterator;
 import java.util.Set;
 
 
@@ -40,8 +41,16 @@ public class RestController {
                 authority.setUsers(null);
             }
         }
+        Iterator<MyTasks> iterator = myTasks.iterator();
+        while (iterator.hasNext()) {
+            MyTasks tasks1 = iterator.next();
+            for (MyTasks myTasks1 : myTasks) {
+                if (!myTasks1.getState().equals("0")) {
+                    iterator.remove();
+                }
+            }
+        }
         return myTasks;
-//        return new MyTasks("sadasd","kekek", "12.04.2017", "1", "Tolya" );
     }
 
     @RequestMapping(value = "/getAll", method = RequestMethod.GET)
@@ -63,13 +72,16 @@ public class RestController {
     public Set<Tasks> getAllTasksWithoutRepeat(@RequestParam(value = "city") String city, @RequestParam(value = "login") String login) {
         Set<MyTasks> myTasks = this.userRepository.findUserByLogin(login).getMyTasks();
         Set<Tasks> tasks = this.tasksRepository.findTasksByCity(city);
-        for (Tasks tasks1 : tasks) {
+//        Set<Tasks> copyTasks = tasks;
+        Iterator<Tasks> iterator = tasks.iterator();
+        while (iterator.hasNext()){
+            Tasks tasks1 = iterator.next();
             for (MyTasks myTasks1 : myTasks) {
-                if (tasks1.getCustomer().equals(myTasks1.getCustomer()) && tasks1.getDateFinish().equals(myTasks1.getDateFinish()) &&
-                        tasks1.getName().equals(myTasks1.getName())) {
-                    tasks.remove(tasks1);
+                if(tasks1.getId().equals(myTasks1.getTaskId())){
+                    iterator.remove();
                 }
             }
+
             for (Tasks task : tasks) {
                 task.getCustomer().setMyTasks(null);
                 task.setUsers(null);
@@ -100,7 +112,7 @@ public class RestController {
 
         if(myTasksRepository.findOneByTaskId(id)== null) {
             myTasksRepository.save(new MyTasks(task.getName(), task.getDescription(), task.getDateFinish(), task.getDifficulty(),
-                    customer, "0", user, task.getLatitude(), task.getLongitude(), task.getId()));
+                    customer, "0", user, task.getLatitude(), task.getLongitude(), task.getId(), task.getAddress()));
             return 1;
         } else {
             return  0;
@@ -112,8 +124,18 @@ public class RestController {
 
     @RequestMapping(value = "/successTask", method = RequestMethod.GET)
     public Integer successTask(@RequestParam(value = "login") String login, @RequestParam(value = "idTask") Integer id) {
+        User user = userRepository.findUserByLogin(login);
         MyTasks myTasks = myTasksRepository.findOne(id);
+        switch (myTasks.getDifficulty()) {
+            case "HARD": user.setExp(user.getExp()+30);
+            case "MIDDLE": user.setExp(user.getExp()+20);
+            case "EASY": user.setExp(user.getExp()+10);
+        }
+        if(user.getLevel()!=user.getExp()/50){
+            user.setLevel(user.getExp()/50);
+        }
         myTasks.setState("2");
+        userRepository.save(user);
         myTasksRepository.save(myTasks);
         return 1;
     }
