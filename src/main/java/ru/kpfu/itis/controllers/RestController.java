@@ -44,10 +44,8 @@ public class RestController {
         Iterator<MyTasks> iterator = myTasks.iterator();
         while (iterator.hasNext()) {
             MyTasks tasks1 = iterator.next();
-            for (MyTasks myTasks1 : myTasks) {
-                if (!myTasks1.getState().equals("0")) {
+                if (!tasks1.getState().equals("0")) {
                     iterator.remove();
-                }
             }
         }
         return myTasks;

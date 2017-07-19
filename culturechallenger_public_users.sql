@@ -1,0 +1,2 @@
+INSERT INTO public.users (login, city, exp, level, name) VALUES ('37587303', 'kazan', 300, 1, 'Булат Мотыгуллин');
+INSERT INTO public.users (login, city, exp, level, name) VALUES ('63440399', 'kazan', 45000, 1, 'Толя Хлопунов');
